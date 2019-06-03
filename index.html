@@ -36,19 +36,13 @@
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://youtube.com" target="_blank">Youtube</a>
                     <a class="bookmark" href="https://netflix.com" target="_blank">Netflix</a>
-                    <a class="bookmark" href="https://crunchyroll.com" target="_blank">Crunchyroll</a>
-                    <a class="bookmark" href="https://" target="_blank">Amazon Prime</a>
                 </div>
             </div>
             <div class="bookmark-set">
             <div class="bookmark-title">Reddit</div>
                 <div class="bookmark-inner-container">
-                    <a class="bookmark" href="https://reddit.com/r/overwatch" target="_blank">/r/overwatch</a>
-                    <a class="bookmark" href="https://reddit.com/r/pcmasterrace" target="_blank">/r/pcmasterrace</a>
-                    <a class="bookmark" href="https://reddit.com/r/me_irl" target="_blank">/r/me_irl</a>
-                    <a class="bookmark" href="https://reddit.com/r/battlestations" target="_blank">/r/battlestations</a>
+                    <a class="bookmark" href="https://reddit.com/r/netsec" target="_blank">/r/netsec</a>
                     <a class="bookmark" href="https://reddit.com/r/unixporn" target="_blank">/r/unixporn</a>
-                    
                     <a class="bookmark" href="https://reddit.com/r/news" target="_blank">/r/news</a>
                 </div>
             </div>
@@ -57,6 +51,8 @@
                 <div class="bookmark-inner-container">
                     <a class="bookmark" href="https://twitter.com" target="_blank">Twitter</a>
                     <a class="bookmark" href="https://facebook.com" target="_blank">Facebook</a>
+                    <a class="bookmark" href="https://instagram.com" target="_blank">Instagram</a>
+
                 </div>
             </div>
         </div>
@@ -86,7 +82,7 @@
         window.onload = () => {
             let xhr = new XMLHttpRequest();
             // Request to open weather map
-            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
+            xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5809844&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
             xhr.onload = () => {
                 if (xhr.readyState === 4) {
                     if (xhr.status === 200) {

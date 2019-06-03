@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-    background-color: #5F4B8B;
+    background-color: #444d5b;
     margin: 0px;
 }
 
@@ -95,11 +95,11 @@ body {
     font-family: "Roboto Mono";
     font-size: .85rem;
     width: 25%;
-    height: 10em;
+    height: 15em;
     margin: 0em .5em;
 }
 .bookmark-inner-container {
-    overflow-y: scroll;
+   /* overflow-y: scroll; */
     height: 80%;
     vertical-align: top;
 }
